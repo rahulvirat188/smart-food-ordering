@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Food Order</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <header>
+        <h1>Smart Food Ordering using AWS </h1>
+    </header>
+
+    <main class="menu">
+        <div class="food-item">
+            <img src="pizza.jpg" alt="Pizza">
+            <h2>Pizza</h2>
+            <p>Cheesy and delicious</p>
+            <button onclick="orderNow('Pizza')">Order Now</button>
+        </div>
+        <div class="food-item">
+            <img src="burger.jpg" alt="Burger">
+            <h2>Burger</h2>
+            <p>Juicy and tasty</p>
+            <button onclick="orderNow('Burger')">Order Now</button>
+        </div>
+        <div class="food-item">
+            <img src="pasta.jpg" alt="pasta">
+            <h2>Pasta</h2>
+            <p>Spicy and hot</p>
+            <button onclick="orderNow('Pasta')">Order Now</button>
+        </div>
+    </main>
+
+    <div id="message" class="message"></div>
+
+    <footer>
+        <p>&copy; 2025 Smart Food Ordering</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
